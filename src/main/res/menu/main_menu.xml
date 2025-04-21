@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btn1"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="Ver"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btn2"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Ajuda"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btn3"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Mensagem"
+        app:showAsAction="ifRoom" />
+</menu>
